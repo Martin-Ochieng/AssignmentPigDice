@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pig Dice Game</title>
+    <style>
+        .player-panel {
+            width: 200px;
+            background-color: #f2f2f2;
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        .player-panel.active {
+            background-color: #e6e6e6;
+        }
+
+        .player-panel.winner {
+            background-color: #c8e6c9;
+        }
+
+        .player-score,
+        .player-current-score {
+            font-size: 24px;
+        }
+
+        .dice {
+            display: none;
+            margin-bottom: 10px;
+        }
+
+        button {
+            font-size: 16px;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+<h1>Pig Dice Game</h1>
+<div id="app"></div>
+<script src="/dist/bundle.js"></script>
+</body>
+</html>
