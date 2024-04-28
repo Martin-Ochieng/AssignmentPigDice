@@ -15,7 +15,7 @@ class Game {
         while (this.rolls <= 2) {
             const dice = this.rollDice();
 
-            this.outputElement.innerHTML += "<p>" + dice + "</p>";
+
 
             if (dice === 6) {
                 this.outputElement.innerHTML += "<h2>You won!</h2>";
@@ -28,9 +28,9 @@ class Game {
                 break;
             } else {
                 if (dice > 4) {
-                    this.outputElement.innerHTML += "<p>OOOh, a " + dice + ". So Close!</p>";
+                    this.outputElement.innerHTML += "<p>"+"OOOh, a <b>" + dice + "</b>--> So Close!</p>";
                 } else {
-                    this.outputElement.innerHTML += "<p>Not Even close</p>";
+                    this.outputElement.innerHTML += "<p> You Got <b>" + dice + "</b>-->  Not Even close</p>";
                 }
             }
 

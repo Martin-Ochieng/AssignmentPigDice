@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testExecutions version="1">
     <file path="/Users/mochieng1/Library/Mobile Documents/com~apple~CloudDocs/Learning/MiniApps/Workspace/Assignments/AssignmentPigDice/src/game.test.js">
-        <testCase name="Game should roll a 6 within on first try" duration="2"/>
-        <testCase name="Game should roll a 6 within 3 tries" duration="1"/>
-        <testCase name="Game should not roll a 6 within 3 tries" duration="0"/>
-        <testCase name="Game should correctly count the number of wins" duration="1"/>
-        <testCase name="Game rollDice() should return a number between 1 and 6" duration="0"/>
+        <testCase name="Game should roll a 6 within on first try" duration="1"/>
+        <testCase name="Game should roll a 6 within 3 tries" duration="0"/>
+        <testCase name="Game should not roll a 6 within 3 tries" duration="1"/>
+        <testCase name="Game should correctly count the number of wins" duration="0"/>
+        <testCase name="Game rollDice() should return a number between 1 and 6" duration="1"/>
     </file>
 </testExecutions>

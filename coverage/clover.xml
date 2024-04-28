@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1714329138147" clover="3.2.0">
-  <project timestamp="1714329138147" name="All files">
-    <metrics statements="20" coveredstatements="20" conditionals="6" coveredconditionals="6" methods="3" coveredmethods="3" elements="29" coveredelements="29" complexity="0" loc="20" ncloc="20" packages="1" files="1" classes="1"/>
+<coverage generated="1714331121749" clover="3.2.0">
+  <project timestamp="1714331121749" name="All files">
+    <metrics statements="19" coveredstatements="19" conditionals="6" coveredconditionals="6" methods="3" coveredmethods="3" elements="28" coveredelements="28" complexity="0" loc="19" ncloc="19" packages="1" files="1" classes="1"/>
     <file name="game.js" path="/Users/mochieng1/Library/Mobile Documents/com~apple~CloudDocs/Learning/MiniApps/Workspace/Assignments/AssignmentPigDice/src/game.js">
-      <metrics statements="20" coveredstatements="20" conditionals="6" coveredconditionals="6" methods="3" coveredmethods="3"/>
+      <metrics statements="19" coveredstatements="19" conditionals="6" coveredconditionals="6" methods="3" coveredmethods="3"/>
       <line num="3" count="5" type="stmt"/>
       <line num="4" count="5" type="stmt"/>
       <line num="5" count="5" type="stmt"/>
@@ -11,7 +11,6 @@
       <line num="13" count="4" type="stmt"/>
       <line num="15" count="4" type="stmt"/>
       <line num="16" count="10" type="stmt"/>
-      <line num="18" count="10" type="stmt"/>
       <line num="20" count="10" type="cond" truecount="2" falsecount="0"/>
       <line num="21" count="3" type="stmt"/>
       <line num="22" count="3" type="stmt"/>

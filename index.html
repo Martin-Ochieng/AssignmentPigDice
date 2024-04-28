@@ -5,41 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pig Dice Game</title>
     <style>
-        .player-panel {
-            width: 200px;
-            background-color: #f2f2f2;
-            border: 1px solid #ccc;
-            padding: 10px;
-            margin-bottom: 10px;
-        }
-
-        .player-panel.active {
-            background-color: #e6e6e6;
-        }
-
-        .player-panel.winner {
-            background-color: #c8e6c9;
-        }
-
-        .player-score,
-        .player-current-score {
-            font-size: 24px;
-        }
-
-        .dice {
-            display: none;
-            margin-bottom: 10px;
-        }
-
-        button {
-            font-size: 16px;
-            margin-right: 10px;
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
         }
     </style>
 </head>
 <body>
 <h1>Pig Dice Game</h1>
+<button id="startGameButton">Run Game</button>
 <div id="app"></div>
-<script src="/dist/bundle.js"></script>
+<script type="module" src="/dist/bundle.js"></script>
+<script type="module">
+    import Game from '/src/game.js';
+
+    document.getElementById("startGameButton").addEventListener("click", function() {
+        const outputElement = document.getElementById("app");
+        const myGame = new Game(outputElement);
+        outputElement.innerHTML = ''; // Clear existing content
+        myGame.diceGame();
+    });
+</script>
 </body>
 </html>
