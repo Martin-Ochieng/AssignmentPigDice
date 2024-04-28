@@ -18,26 +18,26 @@ class Game {
 
 
             if (dice === 6) {
-                this.outputElement.innerHTML += "<h2>You won!</h2>";
+                this.outputElement.innerHTML += "<h2 style='text-align: center'>You won!</h2>";
                 this.wins++;
                 if (this.rolls === 0) {
-                    this.outputElement.innerHTML += "<p>It took " + (this.rolls + 1) + " try</p>";
+                    this.outputElement.innerHTML += "<p style='text-align: center'>It took " + (this.rolls + 1) + " try</p>";
                 } else {
-                    this.outputElement.innerHTML += "<p>It took " + (this.rolls + 1) + " tries</p>";
+                    this.outputElement.innerHTML += "<p style='text-align: center'>It took " + (this.rolls + 1) + " tries</p>";
                 }
                 break;
             } else {
                 if (dice > 4) {
-                    this.outputElement.innerHTML += "<p>"+"OOOh, a <b>" + dice + "</b>--> So Close!</p>";
+                    this.outputElement.innerHTML += "<p style='text-align: center'>"+"OOOh, a <b>" + dice + "</b>--> So Close!</p>";
                 } else {
-                    this.outputElement.innerHTML += "<p> You Got <b>" + dice + "</b>-->  Not Even close</p>";
+                    this.outputElement.innerHTML += "<p style='text-align: center'> You Got <b>" + dice + "</b>-->  Not Even close</p>";
                 }
             }
 
             this.rolls++;
         }
 
-        this.outputElement.innerHTML += "<p>Times won: " + this.wins + "</p>";
+        this.outputElement.innerHTML += "<p style='text-align: center'>Times won: " + this.wins + "</p>";
     }
 }
 
