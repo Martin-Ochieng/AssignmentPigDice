@@ -1,4 +1,5 @@
 import Game from './game';
 
-const myGame = new Game();
+const outputElement = document.getElementById("app");
+const myGame = new Game(outputElement);
 myGame.diceGame();

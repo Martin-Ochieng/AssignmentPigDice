@@ -1,5 +1,6 @@
 class Game {
-    constructor() {
+    constructor(outputElement) {
+        this.outputElement = outputElement;
         this.rolls = 0;
         this.wins = 0;
     }
@@ -9,34 +10,34 @@ class Game {
     }
 
     diceGame() {
-        console.log("Dice game. You have 3 tries to roll a 6 - go");
+        this.outputElement.innerHTML += "<p>Dice game. You have 3 tries to roll a 6 - go</p>";
 
         while (this.rolls <= 2) {
             const dice = this.rollDice();
 
-            console.log(dice);
+            this.outputElement.innerHTML += "<p>" + dice + "</p>";
 
             if (dice === 6) {
-                console.log("You won!");
+                this.outputElement.innerHTML += "<p>You won!</p>";
                 this.wins++;
                 if (this.rolls === 0) {
-                    console.log("It took " + (this.rolls + 1) + " try");
+                    this.outputElement.innerHTML += "<p>It took " + (this.rolls + 1) + " try</p>";
                 } else {
-                    console.log("It took " + (this.rolls + 1) + " tries");
+                    this.outputElement.innerHTML += "<p>It took " + (this.rolls + 1) + " tries</p>";
                 }
                 break;
             } else {
                 if (dice > 4) {
-                    console.log("OOOh, a " + dice + ". So Close!");
+                    this.outputElement.innerHTML += "<p>OOOh, a " + dice + ". So Close!</p>";
                 } else {
-                    console.log("Not Even close");
+                    this.outputElement.innerHTML += "<p>Not Even close</p>";
                 }
             }
 
             this.rolls++;
         }
 
-        console.log("Times won: " + this.wins);
+        this.outputElement.innerHTML += "<p>Times won: " + this.wins + "</p>";
     }
 }
 
