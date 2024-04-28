@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1714325094152" clover="3.2.0">
-  <project timestamp="1714325094152" name="All files">
+<coverage generated="1714329138147" clover="3.2.0">
+  <project timestamp="1714329138147" name="All files">
     <metrics statements="20" coveredstatements="20" conditionals="6" coveredconditionals="6" methods="3" coveredmethods="3" elements="29" coveredelements="29" complexity="0" loc="20" ncloc="20" packages="1" files="1" classes="1"/>
     <file name="game.js" path="/Users/mochieng1/Library/Mobile Documents/com~apple~CloudDocs/Learning/MiniApps/Workspace/Assignments/AssignmentPigDice/src/game.js">
       <metrics statements="20" coveredstatements="20" conditionals="6" coveredconditionals="6" methods="3" coveredmethods="3"/>

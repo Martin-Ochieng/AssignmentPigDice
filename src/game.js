@@ -18,7 +18,7 @@ class Game {
             this.outputElement.innerHTML += "<p>" + dice + "</p>";
 
             if (dice === 6) {
-                this.outputElement.innerHTML += "<p>You won!</p>";
+                this.outputElement.innerHTML += "<h2>You won!</h2>";
                 this.wins++;
                 if (this.rolls === 0) {
                     this.outputElement.innerHTML += "<p>It took " + (this.rolls + 1) + " try</p>";

@@ -25,3 +25,7 @@ L
 coverage/coverage-final.json,c/9/c935c6b887975d4b854770e8e4dab505b5a5ee22
 C
 coverage/clover.xml,8/5/85d04cac3d316bb5de852c5f07fccbc0fdfa1227
+@
+sonar-project.js,c/4/c481c8d356bcd65f830cdfc353e1291812d359f7
+H
+sonar-project.properties,2/5/2538046035efb77ecc44e1fd2eec1e2641594d4c
